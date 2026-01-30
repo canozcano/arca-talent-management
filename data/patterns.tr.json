@@ -1,0 +1,408 @@
+{
+    "howComputed": "Kişilik örüntü tipleri, beş büyük faktörden ikisinin aynı anda uç değerlerde (Yüksek veya Düşük) olmasına göre belirlenir. Her faktör çifti (E×A, E×C, …) için 2×2 çaprazlama uygulanır; yalnızca her iki faktör de Orta dışındayken ilgili örüntü seçilir. En fazla 4 örüntü, uçluk (midpoint’ten uzaklık) sırasına göre listelenir.",
+    "allAverageMessage": "Tüm faktörler Orta bandında. Uç çaprazlama örüntüsü yok; kişilik profili dengeli.",
+    "patternsByKey": {
+        "E:A:High:High": {
+            "key": "E:A:High:High",
+            "name": "CANAYAKIN TİP (Personable Type)",
+            "descriptionTr": "Canayakın Tipler, diğer insanlarla etkileşimde bulunmaktan keyif alırlar. Bu bireyler sıklıkla olumlu duygular yaşarlar, bu duygularını dışa vururlar ve bu nedenle genellikle başkaları tarafından sevilirler. Başkalarına yardım etmekten doyum (tatmin) sağlarlar ve 'yardım meslekleri' için çok uygundurlar. Neşeli, özgüvenli, sosyal, enerjik, hevesli ve dost canlısı olarak tanımlanırlar."
+        },
+        "E:A:High:Low": {
+            "key": "E:A:High:Low",
+            "name": "GİRİŞKEN-ETKİLEYİCİ TİP (Assertive-Influencer Type)",
+            "descriptionTr": "Girişken-Etkileyiciler, doğal olarak liderlik rollerini üstlenen bireylerdir. Kararlı ve ısrarcı bir yaklaşım sergilerler. Sonuç odaklı olmaları bazen başkalarının duygularına gösterdikleri dikkati gölgeleyebilir. Dobra veya dik başlı algılanabilirler; ancak kendilerine güvenen ve tuttuğunu koparan kişilerdir."
+        },
+        "E:A:Low:High": {
+            "key": "E:A:Low:High",
+            "name": "UYUMLU-İŞBİRLİKÇİ TİP (Harmonious-Cooperative Type)",
+            "descriptionTr": "Uyumlu-İşbirlikçi bireyler olumlu sosyal etkileşimlere bağlı ve başkalarının ihtiyaçlarıyla uyumlanan kişilerdir. Sakin ve uyumlu bir tavır sergilerler. Nezaketleri ve uyum sağlama yetenekleri onlarla çalışmayı kolaylaştırır. Bazen çekingen algılanabilirler ancak ilişkilerine istikrar katan güçlü bir koruma içgüdüsüne sahiptirler."
+        },
+        "E:A:Low:Low": {
+            "key": "E:A:Low:Low",
+            "name": "BAĞIMSIZ-MESAFELİ TİP (Independent-Distant Type)",
+            "descriptionTr": "Bağımsız-Mesafeli bireyler yalnızlığı tercih eder ve diğerlerine karşı daha az ilgi gösterebilirler. Düşünceli ve içe bakışa sahip bireyler olarak kenarda durup eleştirel bir bakış açısını korurlar. Yalnızlıktan rahatsız olmazlar; sorgulayıcı veya şüpheci bir duruş sergilerler."
+        },
+        "E:C:High:High": {
+            "key": "E:C:High:High",
+            "name": "GİRİŞİMCİ TİP (Enterprising Type)",
+            "descriptionTr": "Girişimci Tipler, başarı için çabalayan hırslı ve rekabetçi bireylerdir. Başarı odaklı, amaçlı ve lider özelliklerine sahiptirler. Otorite pozisyonlarına geçmeye isteklidirler."
+        },
+        "E:C:High:Low": {
+            "key": "E:C:High:Low",
+            "name": "SPONTANE-DÜRTÜSEL TİP (Spontaneous-Impulsive Type)",
+            "descriptionTr": "Spontane-Dürtüsel Tipler, enerjik bir karizmaya sahip, yaşama sevinci yüksek bireylerdir. Risk alma rahatlığına sahiptirler ve kendilerini açıkça ifade edebildikleri durumlarda gelişirler. Açık sözlü, sosyal ve bazen cüretkar olarak tanımlanırlar."
+        },
+        "E:C:Low:High": {
+            "key": "E:C:Low:High",
+            "name": "GAYRETLİ-ÇALIŞKAN TİP (Diligent-Industrious Type)",
+            "descriptionTr": "Gayretli-Çalışkan Tipler, pragmatizm ve disiplinin bir karışımını sergilerler. Yapı, düzen ve öz-düzenleme gerektiren ortamlarda mükemmelleşirler. Görevlere güvenilir ve verimli bir yaklaşım getirirler; işlerinden gurur duyan ve yakın denetime ihtiyaç duymayan bireylerdir."
+        },
+        "E:C:Low:Low": {
+            "key": "E:C:Low:Low",
+            "name": "HUZURLU KAŞİF TİP (Peaceful Explorer Type)",
+            "descriptionTr": "Huzurlu Kaşif Tipler, hayatı sakin ve rahat bir yaklaşımla yönlendiren bireylerdir. Yoğun hırs yerine esnekliği ve ucu açık keşifleri tercih ederler. Sükunete ve sabra değer verirler; başkaları onları uyumlu, plansız ve acelesiz olarak tanımlayabilir."
+        },
+        "E:N:High:High": {
+            "key": "E:N:High:High",
+            "name": "DIŞAVURUMCU-ENERJİK TİP (Expressive-Energetic Type)",
+            "descriptionTr": "Dışavurumcu-Enerjik Tipler, duygularını özgürce ifade eden hayat dolu bireylerdir. Yüksek bir coşku ile duygusal katılımın karışımını barındırırlar. Çok yönlü, hareketli ve heyecanlıdırlar; enerjik hevesleri çevreleri için ilham kaynağı olabilir."
+        },
+        "E:N:High:Low": {
+            "key": "E:N:High:Low",
+            "name": "SOSYAL AÇIDAN ÖZGÜVENLİ TİP (Socially Self-Confident Type)",
+            "descriptionTr": "Sosyal Açıdan Özgüvenli Tipler, yüksek enerji ve özgüven düzeyine sahip dışadönüklerdir. Liderlik ve denetim rolleri için çok uygundurlar. Girişimci, enerjik, kendinden emin ve sosyal olarak görülürler."
+        },
+        "E:N:Low:High": {
+            "key": "E:N:Low:High",
+            "name": "DÜŞÜNSEL-DAYANIKLI TİP (Reflective Resilient Type)",
+            "descriptionTr": "Düşünsel-Dayanıklı Tipler, içe dönük ve düşünceli bireylerdir. Hırssız veya pasif algılanabilirler ancak bu temkinli yaklaşımlarından kaynaklanır. İçe bakış eğilimleri sayesinde durumlarına dair derin bir anlayışa sahiptirler; sessiz bir dayanıklılık sergilerler."
+        },
+        "E:N:Low:Low": {
+            "key": "E:N:Low:Low",
+            "name": "HALİNDEN MEMNUN TİP (Contented Type)",
+            "descriptionTr": "Halinden Memnun Tipler, huzur ve sükunet durumuna ulaşmış bireylerdir. İstikrarı ve güvenliği tercih ederler. Sakin, huzurlu ortamlara yönelirler; ilkeli, güvenilir ve mütevazı olarak algılanırlar."
+        },
+        "E:O:High:High": {
+            "key": "E:O:High:High",
+            "name": "BÜYÜLEYİCİ VİZYONER TİP (Enchanting Visionary Type)",
+            "descriptionTr": "Büyüleyici Vizyoner Tipler, zekaları ve çekicilikleriyle dikkat çeken karizmatik dışadönüklerdir. Yenilikçi, kendini iyi ifade eden ve geleceğe odaklıdırlar. Vizyonlarına tutkulu bağlılıkları nedeniyle bazen yoğun görülebilirler."
+        },
+        "E:O:High:Low": {
+            "key": "E:O:High:Low",
+            "name": "CESUR DIŞAVURUMCU TİP (Bold Expressive Type)",
+            "descriptionTr": "Cesur Dışavurumcu Tipler, düşüncelerini güvenle paylaşan ve canlı sohbetlere katılan bireylerdir. Enerjik ve coşkulu doğaları, bazen aceleci iddialarda bulunmalarına yol açabilir. Canlı ve maceracıdırlar ancak bazen aşırı özgüvenli algılanabilirler."
+        },
+        "E:O:Low:High": {
+            "key": "E:O:Low:High",
+            "name": "ENTELEKTÜEL KAŞİF TİP (Intellectual Explorer Type)",
+            "descriptionTr": "Entelektüel Kaşif Tipler, derin bir entelektüel meraka sahip içe dönük bireylerdir. Bilgiye ve anlamaya olan tutkuları saygı uyandırır. Yalnızlığı ve derin düşünmeyi tercih ederler; genellikle bilgin ve gayretli olarak tanımlanırlar."
+        },
+        "E:O:Low:Low": {
+            "key": "E:O:Low:Low",
+            "name": "İSTİKRARLI GELENEKÇİ TİP (Steady Traditionalist Type)",
+            "descriptionTr": "İstikrarlı Gelenekçi Tipler, aşina olunanı tercih eden ve geçmişe odaklanan bireylerdir. Yeni fikirlerle enerjik bir şekilde etkileşime girmeye pek istekli olmayabilirler. Uyumlu ve geçinilmesi kolay doğaları onları işbirlikçi ve rahat arkadaşlar yapar."
+        },
+        "A:C:High:High": {
+            "key": "A:C:High:High",
+            "name": "UZLAŞMACI TİP (Compromising Type)",
+            "descriptionTr": "Uzlaşmacı Tipler, başkalarıyla iyi geçinmeye odaklı, kişilerarası ahenge değer veren bireylerdir. Çatışmadan ziyade uzlaşmayı tercih ederler. İşbirlikçi, sebatkar, güvenilir ve empatik olarak tanımlanırlar."
+        },
+        "A:C:High:Low": {
+            "key": "A:C:High:Low",
+            "name": "SOSYAL ARABULUCU TİP (Social Harmonizer Type)",
+            "descriptionTr": "Sosyal Arabulucu Tipler, uyumlu ilişkileri tercih eden rahat bireylerdir. Güçlü fikirlerden veya çatışmalardan kaçınırlar. Sosyal bağlara öncelik verirler ve arkadaş canlısı, açık görüşlü bir atmosfer yaratmaktan zevk alırlar."
+        },
+        "A:C:Low:High": {
+            "key": "A:C:Low:High",
+            "name": "İLKELİ LİDER TİP (Principled Leader Type)",
+            "descriptionTr": "İlkeli Lider Tipler, görevlere öncelik veren ve güçlü ilkeleri savunan disiplinli bireylerdir. Görev odaklı bir tarza sahiptirler. Liderlik tarzları tavizsiz, pratik ve açık sözlüdür; bilgili ve odaklanmış olarak tanımlanırlar."
+        },
+        "A:C:Low:Low": {
+            "key": "A:C:Low:Low",
+            "name": "BAĞIMSIZ UYUMSUZ TİP (Independent Nonconformist Type)",
+            "descriptionTr": "Bağımsız Uyumsuz Tipler, kendi önceliklerine odaklanan ve sosyal normlara uyma konusunda isteksiz bireylerdir. Bağımsız, kendine güvenen ve iddialı kabul edilirler ancak işbirlikçi ortamlarda zorlayıcı olabilirler."
+        },
+        "A:N:High:High": {
+            "key": "A:N:High:High",
+            "name": "TUTKULU EMPAT TİP (Passionate Empath Type)",
+            "descriptionTr": "Tutkulu Empat Tipler, kendi duygularıyla derin bir temas halindedirler. Duygusal, sevecen ve sezgisel olarak algılanırlar. Hararetli tutkuları ve duygusal farkındalıkları, onların empatik doğasını besler."
+        },
+        "A:N:High:Low": {
+            "key": "A:N:High:Low",
+            "name": "SEVİMLİ / HOŞNUT TİP (Pleasant Type)",
+            "descriptionTr": "Sevimli Tipler, istikrarlı ruh halleri ve olumlu duygularla karakterize edilirler. Neredeyse herkes tarafından sevilirler; neşeli, hoşgörülü, güvenilir ve işbirlikçi olarak tanımlanırlar."
+        },
+        "A:N:Low:High": {
+            "key": "A:N:Low:High",
+            "name": "DUYGUSAL AÇIDAN DİNAMİK TİP (Emotionally Dynamic Type)",
+            "descriptionTr": "Duygusal Açıdan Dinamik Tipler, geniş bir duygu yelpazesi yaşayabilir ve karmaşık bir duygusal yapıya sahiptirler. Değişim için huzursuz, içe dönük ve kararlı görülebilirler. Tavırları bazen temkinli veya mesafeli algılanabilir."
+        },
+        "A:N:Low:Low": {
+            "key": "A:N:Low:Low",
+            "name": "İSTİKRARLI GERÇEKÇİ TİP (Stable Realist Type)",
+            "descriptionTr": "İstikrarlı Gerçekçi Tipler, duygusal sükuneti ve pratik karar vermeyi tercih ederler. Zorlu durumlarda soğukkanlılıklarını korurlar. Sakin, dayanıklı ve duygusal olarak sarsılmaz algılanırlar."
+        },
+        "A:O:High:High": {
+            "key": "A:O:High:High",
+            "name": "HOŞGÖRÜLÜ TİP (Tolerant Type)",
+            "descriptionTr": "Hoşgörülü Tipler, farklılıklara açık ve kabul edicidirler. Başkalarının duygularını önemserler. Sosyal becerileri gelişmiştir; iyi huylu, empatik, diplomatik ve dengeli olarak tanımlanırlar."
+        },
+        "A:O:High:Low": {
+            "key": "A:O:High:Low",
+            "name": "SEVECEN UYUMCU TİP (Amiable Conformist Type)",
+            "descriptionTr": "Sevecen Uyumcu Tipler, genel uzlaşıya uymayı ve sosyal uyumu tercih ederler. Yardımsever doğaları onları güvenilir kılar ancak grup dinamiklerini kişisel bakış açılarından üstün tutabilirler."
+        },
+        "A:O:Low:High": {
+            "key": "A:O:Low:High",
+            "name": "BAĞIMSIZ YENİLİKÇİ TİP (Independent Innovator Type)",
+            "descriptionTr": "Bağımsız Yenilikçi Tipler, son derece bireyselci ve entelektüel olarak ileride hisseden bireylerdir. Karmaşık, hayal gücü geniş ve çalışkandırlar. Kendi fikirlerini benimsemekten korkmazlar."
+        },
+        "A:O:Low:Low": {
+            "key": "A:O:Low:Low",
+            "name": "KARARLI PRATİK TİP (Resolute Practical Type)",
+            "descriptionTr": "Kararlı Pratik Tipler, bağımsızlığa değer veren ve kendi kendine yeten bireylerdir. Kesin görüşlere sahiptirler ve iletişimlerinde doğrundandırlar. Kararlılık gerektiren ortamlarda bir varlık olarak görülürler."
+        },
+        "C:N:High:High": {
+            "key": "C:N:High:High",
+            "name": "TİTİZ VİZYONER TİP (Meticulous Visionary Type)",
+            "descriptionTr": "Titiz Vizyoner Tipler, yapı ve düzene güçlü bir arzu duyan detay odaklı bireylerdir. Duygusal karmaşıklıkları bazen zorluk yaratabilir. Kılı kırk yaran, bilgili ve içe dönük olarak tanımlanırlar."
+        },
+        "C:N:High:Low": {
+            "key": "C:N:High:Low",
+            "name": "SEBATKAR TİP (Persistent Type)",
+            "descriptionTr": "Sebatkar Tipler, sorumluluk bilinçleriyle hareket eden, çalışkan ve istikrarlı bireylerdir. Yapılandırılmış ortamlarda gelişirler. Güvenilir, itimat edilir ve ayakları yere basan bir tavır sergilerler."
+        },
+        "C:N:Low:High": {
+            "key": "C:N:Low:High",
+            "name": "YARATICI UYUMSUZ TİP (Creative Nonconformist Type)",
+            "descriptionTr": "Yaratıcı Uyumsuz Tipler, duygusal bir karmaşıklık sergilerler. Spontanlık ve yaratıcılık eğilimi gösterirler. Çevrelerine benzersiz bir bakış açısı getirirler ancak duygusal yoğunlukları bazen zorluk yaratabilir."
+        },
+        "C:N:Low:Low": {
+            "key": "C:N:Low:Low",
+            "name": "RAHAT İYİMSER TİP (Easygoing Optimist Type)",
+            "descriptionTr": "Rahat İyimser Tipler; hatırşinas, karmaşık olmayan ve pozitif bireylerdir. Kurallara ve rutinlere karşı tasasız bir tavır sergilerler. Rahat, kendinden emin ve moral verici mizaçları ferahlatıcı olabilir."
+        },
+        "C:O:High:High": {
+            "key": "C:O:High:High",
+            "name": "AYDINLANMIŞ GELENEKÇİ TİP (Enlightened Traditionalist Type)",
+            "descriptionTr": "Aydınlanmış Gelenekçi Tipler, hayal gücü geniş ve yenilikçidir ancak yerleşik uygulamalara da değer verirler. Detay odaklıdırler ve hedeflerine ulaşmak için verimli yollar bulurlar. Güvenilir, çalışkan ve geleneklere saygılıdırlar."
+        },
+        "C:O:High:Low": {
+            "key": "C:O:High:Low",
+            "name": "GELENEKSEL TİP (Conventional Type)",
+            "descriptionTr": "Geleneksel Tipler, yerleşik yöntemleri ve prosedürleri tercih eden gelenek odaklı insanlardır. Tutarlılığa ve güvenilirliğe değer verirler. Uyumlu, sade ve gerçekçi olarak tanımlanırlar."
+        },
+        "C:O:Low:High": {
+            "key": "C:O:Low:High",
+            "name": "YENİLİKÇİ İDEALİST TİP (Innovative Idealist Type)",
+            "descriptionTr": "Yenilikçi İdealist Tipler, kendi özgünlükleriyle gurur duyan gelenek dışı uyumsuzlardır. Hayal gücü geniş ve bireyselcidirler. Benzersiz bakış açıları taze içgörüler katar; karmaşık ve mucit ruhlu olarak tanımlanırlar."
+        },
+        "C:O:Low:Low": {
+            "key": "C:O:Low:Low",
+            "name": "SPONTANE MACERACI TİP (Spontaneous Adventurer Type)",
+            "descriptionTr": "Spontane Maceracı Tipler, aktif ve pratik ortamları tercih ederler. Canlı ve açık sözlüdürler; dürtüsellikleri onları maceraya sürükler. Hareketi ve dinamizmi tercih ederler; enerjik ve spontane olarak tanımlanırlar."
+        },
+        "N:O:High:High": {
+            "key": "N:O:High:High",
+            "name": "HASSAS TİP (Sensitive Type)",
+            "descriptionTr": "Hassas Tipler, içgörülü ve sezgileri kuvvetli ancak duygusal olarak hassas bireylerdir. Dünyada olup bitenlerden derinlemesine etkilenirler. Karmaşık ve hayal gücü geniş olarak tanımlanırlar."
+        },
+        "N:O:High:Low": {
+            "key": "N:O:High:Low",
+            "name": "GELENEKÇİ TİP (Traditionalist Type)",
+            "descriptionTr": "Gelenekçi Tipler (N-O Grubu), yeni fikirlere karşı çekimserlik gösterebilirler. Kendilerini geçmişe demirleyerek kaygıyı yönetirler. Temkinli, güvenilir ve değişimi kucaklama konusunda gönülsüz olarak nitelendirilirler."
+        },
+        "N:O:Low:High": {
+            "key": "N:O:Low:High",
+            "name": "BERRAK DÜŞÜNEN TİP (Clear-Thinking Type)",
+            "descriptionTr": "Berrak Düşünen Tipler, iyi uyum sağlamış ve zeki bireylerdir. Sorunlara sakin ve nesnel yaklaşırlar. Soğukkanlı, ileri görüşlü ve yenilikçi olarak tanımlanırlar."
+        },
+        "N:O:Low:Low": {
+            "key": "N:O:Low:Low",
+            "name": "AYAKLARI YERE BASAN GERÇEKÇİ TİP (Grounded Realist Type)",
+            "descriptionTr": "Ayakları Yere Basan Gerçekçi Tipler, 'şimdi ve burada' olana odaklanarak stresle iyi başa çıkarlar. Kendi çevrelerindeki değerlere bağlıdırlar; pragmatik ve sağduyu sahibi olarak görülürler."
+        }
+    },
+    "patterns": [
+        {
+            "key": "E:A:High:High",
+            "name": "CANAYAKIN TİP (Personable Type)",
+            "descriptionTr": "Canayakın Tipler, diğer insanlarla etkileşimde bulunmaktan keyif alırlar. Bu bireyler sıklıkla olumlu duygular yaşarlar, bu duygularını dışa vururlar ve bu nedenle genellikle başkaları tarafından sevilirler. Başkalarına yardım etmekten doyum (tatmin) sağlarlar ve 'yardım meslekleri' için çok uygundurlar. Neşeli, özgüvenli, sosyal, enerjik, hevesli ve dost canlısı olarak tanımlanırlar."
+        },
+        {
+            "key": "E:A:High:Low",
+            "name": "GİRİŞKEN-ETKİLEYİCİ TİP (Assertive-Influencer Type)",
+            "descriptionTr": "Girişken-Etkileyiciler, doğal olarak liderlik rollerini üstlenen bireylerdir. Kararlı ve ısrarcı bir yaklaşım sergilerler. Sonuç odaklı olmaları bazen başkalarının duygularına gösterdikleri dikkati gölgeleyebilir. Dobra veya dik başlı algılanabilirler; ancak kendilerine güvenen ve tuttuğunu koparan kişilerdir."
+        },
+        {
+            "key": "E:A:Low:High",
+            "name": "UYUMLU-İŞBİRLİKÇİ TİP (Harmonious-Cooperative Type)",
+            "descriptionTr": "Uyumlu-İşbirlikçi bireyler olumlu sosyal etkileşimlere bağlı ve başkalarının ihtiyaçlarıyla uyumlanan kişilerdir. Sakin ve uyumlu bir tavır sergilerler. Nezaketleri ve uyum sağlama yetenekleri onlarla çalışmayı kolaylaştırır. Bazen çekingen algılanabilirler ancak ilişkilerine istikrar katan güçlü bir koruma içgüdüsüne sahiptirler."
+        },
+        {
+            "key": "E:A:Low:Low",
+            "name": "BAĞIMSIZ-MESAFELİ TİP (Independent-Distant Type)",
+            "descriptionTr": "Bağımsız-Mesafeli bireyler yalnızlığı tercih eder ve diğerlerine karşı daha az ilgi gösterebilirler. Düşünceli ve içe bakışa sahip bireyler olarak kenarda durup eleştirel bir bakış açısını korurlar. Yalnızlıktan rahatsız olmazlar; sorgulayıcı veya şüpheci bir duruş sergilerler."
+        },
+        {
+            "key": "E:C:High:High",
+            "name": "GİRİŞİMCİ TİP (Enterprising Type)",
+            "descriptionTr": "Girişimci Tipler, başarı için çabalayan hırslı ve rekabetçi bireylerdir. Başarı odaklı, amaçlı ve lider özelliklerine sahiptirler. Otorite pozisyonlarına geçmeye isteklidirler."
+        },
+        {
+            "key": "E:C:High:Low",
+            "name": "SPONTANE-DÜRTÜSEL TİP (Spontaneous-Impulsive Type)",
+            "descriptionTr": "Spontane-Dürtüsel Tipler, enerjik bir karizmaya sahip, yaşama sevinci yüksek bireylerdir. Risk alma rahatlığına sahiptirler ve kendilerini açıkça ifade edebildikleri durumlarda gelişirler. Açık sözlü, sosyal ve bazen cüretkar olarak tanımlanırlar."
+        },
+        {
+            "key": "E:C:Low:High",
+            "name": "GAYRETLİ-ÇALIŞKAN TİP (Diligent-Industrious Type)",
+            "descriptionTr": "Gayretli-Çalışkan Tipler, pragmatizm ve disiplinin bir karışımını sergilerler. Yapı, düzen ve öz-düzenleme gerektiren ortamlarda mükemmelleşirler. Görevlere güvenilir ve verimli bir yaklaşım getirirler; işlerinden gurur duyan ve yakın denetime ihtiyaç duymayan bireylerdir."
+        },
+        {
+            "key": "E:C:Low:Low",
+            "name": "HUZURLU KAŞİF TİP (Peaceful Explorer Type)",
+            "descriptionTr": "Huzurlu Kaşif Tipler, hayatı sakin ve rahat bir yaklaşımla yönlendiren bireylerdir. Yoğun hırs yerine esnekliği ve ucu açık keşifleri tercih ederler. Sükunete ve sabra değer verirler; başkaları onları uyumlu, plansız ve acelesiz olarak tanımlayabilir."
+        },
+        {
+            "key": "E:N:High:High",
+            "name": "DIŞAVURUMCU-ENERJİK TİP (Expressive-Energetic Type)",
+            "descriptionTr": "Dışavurumcu-Enerjik Tipler, duygularını özgürce ifade eden hayat dolu bireylerdir. Yüksek bir coşku ile duygusal katılımın karışımını barındırırlar. Çok yönlü, hareketli ve heyecanlıdırlar; enerjik hevesleri çevreleri için ilham kaynağı olabilir."
+        },
+        {
+            "key": "E:N:High:Low",
+            "name": "SOSYAL AÇIDAN ÖZGÜVENLİ TİP (Socially Self-Confident Type)",
+            "descriptionTr": "Sosyal Açıdan Özgüvenli Tipler, yüksek enerji ve özgüven düzeyine sahip dışadönüklerdir. Liderlik ve denetim rolleri için çok uygundurlar. Girişimci, enerjik, kendinden emin ve sosyal olarak görülürler."
+        },
+        {
+            "key": "E:N:Low:High",
+            "name": "DÜŞÜNSEL-DAYANIKLI TİP (Reflective Resilient Type)",
+            "descriptionTr": "Düşünsel-Dayanıklı Tipler, içe dönük ve düşünceli bireylerdir. Hırssız veya pasif algılanabilirler ancak bu temkinli yaklaşımlarından kaynaklanır. İçe bakış eğilimleri sayesinde durumlarına dair derin bir anlayışa sahiptirler; sessiz bir dayanıklılık sergilerler."
+        },
+        {
+            "key": "E:N:Low:Low",
+            "name": "HALİNDEN MEMNUN TİP (Contented Type)",
+            "descriptionTr": "Halinden Memnun Tipler, huzur ve sükunet durumuna ulaşmış bireylerdir. İstikrarı ve güvenliği tercih ederler. Sakin, huzurlu ortamlara yönelirler; ilkeli, güvenilir ve mütevazı olarak algılanırlar."
+        },
+        {
+            "key": "E:O:High:High",
+            "name": "BÜYÜLEYİCİ VİZYONER TİP (Enchanting Visionary Type)",
+            "descriptionTr": "Büyüleyici Vizyoner Tipler, zekaları ve çekicilikleriyle dikkat çeken karizmatik dışadönüklerdir. Yenilikçi, kendini iyi ifade eden ve geleceğe odaklıdırlar. Vizyonlarına tutkulu bağlılıkları nedeniyle bazen yoğun görülebilirler."
+        },
+        {
+            "key": "E:O:High:Low",
+            "name": "CESUR DIŞAVURUMCU TİP (Bold Expressive Type)",
+            "descriptionTr": "Cesur Dışavurumcu Tipler, düşüncelerini güvenle paylaşan ve canlı sohbetlere katılan bireylerdir. Enerjik ve coşkulu doğaları, bazen aceleci iddialarda bulunmalarına yol açabilir. Canlı ve maceracıdırlar ancak bazen aşırı özgüvenli algılanabilirler."
+        },
+        {
+            "key": "E:O:Low:High",
+            "name": "ENTELEKTÜEL KAŞİF TİP (Intellectual Explorer Type)",
+            "descriptionTr": "Entelektüel Kaşif Tipler, derin bir entelektüel meraka sahip içe dönük bireylerdir. Bilgiye ve anlamaya olan tutkuları saygı uyandırır. Yalnızlığı ve derin düşünmeyi tercih ederler; genellikle bilgin ve gayretli olarak tanımlanırlar."
+        },
+        {
+            "key": "E:O:Low:Low",
+            "name": "İSTİKRARLI GELENEKÇİ TİP (Steady Traditionalist Type)",
+            "descriptionTr": "İstikrarlı Gelenekçi Tipler, aşina olunanı tercih eden ve geçmişe odaklanan bireylerdir. Yeni fikirlerle enerjik bir şekilde etkileşime girmeye pek istekli olmayabilirler. Uyumlu ve geçinilmesi kolay doğaları onları işbirlikçi ve rahat arkadaşlar yapar."
+        },
+        {
+            "key": "A:C:High:High",
+            "name": "UZLAŞMACI TİP (Compromising Type)",
+            "descriptionTr": "Uzlaşmacı Tipler, başkalarıyla iyi geçinmeye odaklı, kişilerarası ahenge değer veren bireylerdir. Çatışmadan ziyade uzlaşmayı tercih ederler. İşbirlikçi, sebatkar, güvenilir ve empatik olarak tanımlanırlar."
+        },
+        {
+            "key": "A:C:High:Low",
+            "name": "SOSYAL ARABULUCU TİP (Social Harmonizer Type)",
+            "descriptionTr": "Sosyal Arabulucu Tipler, uyumlu ilişkileri tercih eden rahat bireylerdir. Güçlü fikirlerden veya çatışmalardan kaçınırlar. Sosyal bağlara öncelik verirler ve arkadaş canlısı, açık görüşlü bir atmosfer yaratmaktan zevk alırlar."
+        },
+        {
+            "key": "A:C:Low:High",
+            "name": "İLKELİ LİDER TİP (Principled Leader Type)",
+            "descriptionTr": "İlkeli Lider Tipler, görevlere öncelik veren ve güçlü ilkeleri savunan disiplinli bireylerdir. Görev odaklı bir tarza sahiptirler. Liderlik tarzları tavizsiz, pratik ve açık sözlüdür; bilgili ve odaklanmış olarak tanımlanırlar."
+        },
+        {
+            "key": "A:C:Low:Low",
+            "name": "BAĞIMSIZ UYUMSUZ TİP (Independent Nonconformist Type)",
+            "descriptionTr": "Bağımsız Uyumsuz Tipler, kendi önceliklerine odaklanan ve sosyal normlara uyma konusunda isteksiz bireylerdir. Bağımsız, kendine güvenen ve iddialı kabul edilirler ancak işbirlikçi ortamlarda zorlayıcı olabilirler."
+        },
+        {
+            "key": "A:N:High:High",
+            "name": "TUTKULU EMPAT TİP (Passionate Empath Type)",
+            "descriptionTr": "Tutkulu Empat Tipler, kendi duygularıyla derin bir temas halindedirler. Duygusal, sevecen ve sezgisel olarak algılanırlar. Hararetli tutkuları ve duygusal farkındalıkları, onların empatik doğasını besler."
+        },
+        {
+            "key": "A:N:High:Low",
+            "name": "SEVİMLİ / HOŞNUT TİP (Pleasant Type)",
+            "descriptionTr": "Sevimli Tipler, istikrarlı ruh halleri ve olumlu duygularla karakterize edilirler. Neredeyse herkes tarafından sevilirler; neşeli, hoşgörülü, güvenilir ve işbirlikçi olarak tanımlanırlar."
+        },
+        {
+            "key": "A:N:Low:High",
+            "name": "DUYGUSAL AÇIDAN DİNAMİK TİP (Emotionally Dynamic Type)",
+            "descriptionTr": "Duygusal Açıdan Dinamik Tipler, geniş bir duygu yelpazesi yaşayabilir ve karmaşık bir duygusal yapıya sahiptirler. Değişim için huzursuz, içe dönük ve kararlı görülebilirler. Tavırları bazen temkinli veya mesafeli algılanabilir."
+        },
+        {
+            "key": "A:N:Low:Low",
+            "name": "İSTİKRARLI GERÇEKÇİ TİP (Stable Realist Type)",
+            "descriptionTr": "İstikrarlı Gerçekçi Tipler, duygusal sükuneti ve pratik karar vermeyi tercih ederler. Zorlu durumlarda soğukkanlılıklarını korurlar. Sakin, dayanıklı ve duygusal olarak sarsılmaz algılanırlar."
+        },
+        {
+            "key": "A:O:High:High",
+            "name": "HOŞGÖRÜLÜ TİP (Tolerant Type)",
+            "descriptionTr": "Hoşgörülü Tipler, farklılıklara açık ve kabul edicidirler. Başkalarının duygularını önemserler. Sosyal becerileri gelişmiştir; iyi huylu, empatik, diplomatik ve dengeli olarak tanımlanırlar."
+        },
+        {
+            "key": "A:O:High:Low",
+            "name": "SEVECEN UYUMCU TİP (Amiable Conformist Type)",
+            "descriptionTr": "Sevecen Uyumcu Tipler, genel uzlaşıya uymayı ve sosyal uyumu tercih ederler. Yardımsever doğaları onları güvenilir kılar ancak grup dinamiklerini kişisel bakış açılarından üstün tutabilirler."
+        },
+        {
+            "key": "A:O:Low:High",
+            "name": "BAĞIMSIZ YENİLİKÇİ TİP (Independent Innovator Type)",
+            "descriptionTr": "Bağımsız Yenilikçi Tipler, son derece bireyselci ve entelektüel olarak ileride hisseden bireylerdir. Karmaşık, hayal gücü geniş ve çalışkandırlar. Kendi fikirlerini benimsemekten korkmazlar."
+        },
+        {
+            "key": "A:O:Low:Low",
+            "name": "KARARLI PRATİK TİP (Resolute Practical Type)",
+            "descriptionTr": "Kararlı Pratik Tipler, bağımsızlığa değer veren ve kendi kendine yeten bireylerdir. Kesin görüşlere sahiptirler ve iletişimlerinde doğrundandırlar. Kararlılık gerektiren ortamlarda bir varlık olarak görülürler."
+        },
+        {
+            "key": "C:N:High:High",
+            "name": "TİTİZ VİZYONER TİP (Meticulous Visionary Type)",
+            "descriptionTr": "Titiz Vizyoner Tipler, yapı ve düzene güçlü bir arzu duyan detay odaklı bireylerdir. Duygusal karmaşıklıkları bazen zorluk yaratabilir. Kılı kırk yaran, bilgili ve içe dönük olarak tanımlanırlar."
+        },
+        {
+            "key": "C:N:High:Low",
+            "name": "SEBATKAR TİP (Persistent Type)",
+            "descriptionTr": "Sebatkar Tipler, sorumluluk bilinçleriyle hareket eden, çalışkan ve istikrarlı bireylerdir. Yapılandırılmış ortamlarda gelişirler. Güvenilir, itimat edilir ve ayakları yere basan bir tavır sergilerler."
+        },
+        {
+            "key": "C:N:Low:High",
+            "name": "YARATICI UYUMSUZ TİP (Creative Nonconformist Type)",
+            "descriptionTr": "Yaratıcı Uyumsuz Tipler, duygusal bir karmaşıklık sergilerler. Spontanlık ve yaratıcılık eğilimi gösterirler. Çevrelerine benzersiz bir bakış açısı getirirler ancak duygusal yoğunlukları bazen zorluk yaratabilir."
+        },
+        {
+            "key": "C:N:Low:Low",
+            "name": "RAHAT İYİMSER TİP (Easygoing Optimist Type)",
+            "descriptionTr": "Rahat İyimser Tipler; hatırşinas, karmaşık olmayan ve pozitif bireylerdir. Kurallara ve rutinlere karşı tasasız bir tavır sergilerler. Rahat, kendinden emin ve moral verici mizaçları ferahlatıcı olabilir."
+        },
+        {
+            "key": "C:O:High:High",
+            "name": "AYDINLANMIŞ GELENEKÇİ TİP (Enlightened Traditionalist Type)",
+            "descriptionTr": "Aydınlanmış Gelenekçi Tipler, hayal gücü geniş ve yenilikçidir ancak yerleşik uygulamalara da değer verirler. Detay odaklıdırlar ve hedeflerine ulaşmak için verimli yollar bulurlar. Güvenilir, çalışkan ve geleneklere saygılıdırlar."
+        },
+        {
+            "key": "C:O:High:Low",
+            "name": "GELENEKSEL TİP (Conventional Type)",
+            "descriptionTr": "Geleneksel Tipler, yerleşik yöntemleri ve prosedürleri tercih eden gelenek odaklı insanlardır. Tutarlılığa ve güvenilirliğe değer verirler. Uyumlu, sade ve gerçekçi olarak tanımlanırlar."
+        },
+        {
+            "key": "C:O:Low:High",
+            "name": "YENİLİKÇİ İDEALİST TİP (Innovative Idealist Type)",
+            "descriptionTr": "Yenilikçi İdealist Tipler, kendi özgünlükleriyle gurur duyan gelenek dışı uyumsuzlardır. Hayal gücü geniş ve bireyselcidirler. Benzersiz bakış açıları taze içgörüler katar; karmaşık ve mucit ruhlu olarak tanımlanırlar."
+        },
+        {
+            "key": "C:O:Low:Low",
+            "name": "SPONTANE MACERACI TİP (Spontaneous Adventurer Type)",
+            "descriptionTr": "Spontane Maceracı Tipler, aktif ve pratik ortamları tercih ederler. Canlı ve açık sözlüdürler; dürtüsellikleri onları maceraya sürükler. Hareketi ve dinamizmi tercih ederler; enerjik ve spontane olarak tanımlanırlar."
+        },
+        {
+            "key": "N:O:High:High",
+            "name": "HASSAS TİP (Sensitive Type)",
+            "descriptionTr": "Hassas Tipler, içgörülü ve sezgileri kuvvetli ancak duygusal olarak hassas bireylerdir. Dünyada olup bitenlerden derinlemesine etkilenirler. Karmaşık ve hayal gücü geniş olarak tanımlanırlar."
+        },
+        {
+            "key": "N:O:High:Low",
+            "name": "GELENEKÇİ TİP (Traditionalist Type)",
+            "descriptionTr": "Gelenekçi Tipler (N-O Grubu), yeni fikirlere karşı çekimserlik gösterebilirler. Kendilerini geçmişe demirleyerek kaygıyı yönetirler. Temkinli, güvenilir ve değişimi kucaklama konusunda gönülsüz olarak nitelendirilirler."
+        },
+        {
+            "key": "N:O:Low:High",
+            "name": "BERRAK DÜŞÜNEN TİP (Clear-Thinking Type)",
+            "descriptionTr": "Berrak Düşünen Tipler, iyi uyum sağlamış ve zeki bireylerdir. Sorunlara sakin ve nesnel yaklaşırlar. Soğukkanlı, ileri görüşlü ve yenilikçi olarak tanımlanırlar."
+        },
+        {
+            "key": "N:O:Low:Low",
+            "name": "AYAKLARI YERE BASAN GERÇEKÇİ TİP (Grounded Realist Type)",
+            "descriptionTr": "Ayakları Yere Basan Gerçekçi Tipler, 'şimdi ve burada' olana odaklanarak stresle iyi başa çıkarlar. Kendi çevrelerindeki değerlere bağlıdırlar; pragmatik ve sağduyu sahibi olarak görülürler."
+        }
+    ]
+}

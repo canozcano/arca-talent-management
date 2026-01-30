@@ -1,0 +1,186 @@
+{
+    "domains": {
+        "O": {
+            "High": "Deneyime Açıklık puanınız yüksektir; bu durum entelektüel meraka, yaratıcılığa, yeniliğe ve çeşitliliğe karşı güçlü bir eğiliminiz olduğunu gösterir. Muhtemelen zengin bir hayal gücüne sahipsiniz, yeni fikirleri ve bakış açılarını keşfetmekten hoşlanıyorsunuz, ayrıca sanata ve estetiğe karşı derin bir takdir duyuyor olabilirsiniz. Bu özellik, alışılmadık durumlarda rahat olduğunuzu; kişisel gelişim ve öğrenme adına sık sık yeni deneyimler ve zorluklar aradığınızı işaret eder.",
+            "Average": "Deneyime Açıklık puanınız ortalama aralıktadır; bu durum yenilik ile gelenek arasında dengeli bir yaklaşıma sahip olduğunuzu gösterir. Muhtemelen rutin ve yeniliğin bir arada olmasından memnunsunuz; yeni deneyimlere ve fikirlere açıksınız ancak bunları her zaman aktif bir şekilde aramıyorsunuz. Hem somut bilgileri hem de soyut kavramları değerlendirebiliyor olmanız, duruma ve çevrenin taleplerine göre uyum sağlamanıza olanak tanır.",
+            "Low": "Deneyime Açıklık puanınız düşüktür; bu durum rutini sevdiğinizi ve bildiğiniz/tanıdık ortamları tercih ettiğinizi gösterir. Muhtemelen pragmatik (faydacı) ve ayakları yere basan birisiniz; soyut teoriler veya fikirlerden ziyade somut bilgilere odaklanmayı tercih ediyorsunuz. Bu özellik ayrıca, yenilikler veya bilinmeyen kavramları keşfetmek yerine istikrarı ve aşina olduğunuz ortamları tercih edebileceğinizi gösterir."
+        },
+        "C": {
+            "High": "Sorumluluk puanınız yüksektir; bu durum sorumlu, düzenli ve güvenilir biri olduğunuzu gösterir. Muhtemelen çok detay odaklısınız ve işleri dikkatle planlıyor, programlara uymayı ve belirli rutinler oluşturmayı tercih ediyorsunuz. Görevlere metodik (yöntemli) ve disiplinli bir şekilde yaklaşıyor, teslim tarihlerine (deadline) tutarlı bir şekilde uyuyorsunuz. Güçlü görev bilinciniz, sizi sıklıkla güvenilir bir ekip üyesi veya lider yapıyor.",
+            "Average": "Sorumluluk puanınız ortalama aralıktadır; bu durum spontanlık (anlık davranma) ile disiplin arasında bir denge kurduğunuzu gösterir. Gerektiğinde planlara sadık kalabilir ve detaycı olabilirsiniz; ancak aynı zamanda esneklikten hoşlanır, programınızdaki veya çevrenizdeki değişikliklere uyum sağlayabilirsiniz. Teslim tarihlerinin ve kuralların önemini anlamakla birlikte, bunlara katı bir şekilde bağlı hissetmezsiniz ve durum elverdiğinde rahatlayabilirsiniz.",
+            "Low": "Sorumluluk puanınız düşüktür; bu durum hayata karşı spontane, esnek ve kaygısız (rahat) bir yaklaşımınız olabileceğini ima eder. Katı programlara veya planlara bağlı kalmayı tercih etmeyebilir ve öngörülemezliğin getirdiği özgürlükten keyif alabilirsiniz. Bazen detaylı planlama yapmayı veya kesin teslim tarihlerini daha az konforlu bulabilir; gelecek için kapsamlı hazırlıklar yapmak yerine \"ana odaklanmayı\" önceliklendirebilirsiniz."
+        },
+        "E": {
+            "High": "Dışadönüklük puanınız yüksektir; bu durum sosyal, girişken ve başkalarıyla etkileşimde bulunurken rahat olduğunuzu gösterir. İnsanların etrafında olmaktan enerji alır ve sosyal ortamlara katılmaktan keyif alırsınız. Muhtemelen konuşkan, atılgan (iddialı) ve duygu ile arzularınızı açıkça ifade etme konusunda rahatsınız.",
+            "Average": "Dışadönüklük puanınız ortalama aralıktadır; bu, hem sosyal etkileşimi hem de kişisel yalnızlığı takdir ettiğiniz anlamına gelir. Sosyal durumlarda kendinizi rahat hissedersiniz, ancak aynı zamanda enerji toplamak (şarj olmak) için yalnız geçirdiğiniz zamana da değer verirsiniz. Kendinizi ifade etme konusunda esneksiniz ve sosyallik düzeyinizi durumun gerekliliklerine göre ayarlayabilir; konuşkanlık ile iç gözlem (kendi içine dönme) arasında iyi bir dengenin tadını çıkarırsınız.",
+            "Low": "Dışadönüklük puanınız düşüktür; bu durum daha içe dönük olduğunuzu, yalnız başına veya küçük, samimi ortamlarda zaman geçirmekten hoşlandığınızı gösterir. Büyük sosyal toplanmaları daha az enerji verici bulabilir ve düşünceli, odaklanma gerektiren faaliyetlerle uğraşmayı tercih edebilirsiniz. Daha sessiz, daha mesafeli ve derin düşünen bir yapıda olabilir; vaktinizi genellikle düşüncelerinizi ve hislerinizi gözden geçirerek harcayabilirsiniz."
+        },
+        "A": {
+            "High": "Uyumluluk puanınız yüksektir; bu durum başkalarının ihtiyaçlarına ve esenliğine güçlü bir ilgi duyduğunuzu gösterir. Muhtemelen empatik, düşünceli, dost canlısı ve işbirlikçi birisiniz. Çatışmalardan kaçınmayı tercih eder ve başkalarına yardım etmek için büyük çaba harcarsınız (kendi düzeninizi bozma pahasına bile olsa); şefkatli ve anlayışlı doğanız nedeniyle genellikle sevilen birisiniz.",
+            "Average": "Uyumluluk puanınız ortalama aralıktadır; bu, kendi ihtiyaçlarınızı gözetmek ile başkalarının ihtiyaçlarını dikkate almak arasında bir dengeye sahip olduğunuz anlamına gelir. Gerektiğinde işbirlikçi ve şefkatli olabilir, ancak aynı zamanda hakkınızı savunabilir ve kendi ihtiyaçlarınızı ifade edebilirsiniz. Empati ile öz-çıkar arasında iyi bir denge kurabiliyorsunuz.",
+            "Low": "Uyumluluk puanınız düşüktür; bu durum kendi bakış açınızı veya hedeflerinizi başkalarınınkinin önünde tutabileceğinizi gösterir. Başkalarının niyetleri konusunda daha temkinli veya seçici (ayırt edici) olabilirsiniz; rekabeti yönetme veya doğrudan iletişim kurma konusunda rahatsınızdır. Netliğe ve dürüstlüğe değer verdiğiniz için açık sözlü, hatta bazen dobra (köşeli) olarak algılanabilirsiniz ve kişilerarası baskılardan aşırı etkilenmeden zor kararlar alabilirsiniz."
+        },
+        "N": {
+            "High": "Duygusal Dengesizlik puanınız yüksektir; bu durum bazı duyguları daha yoğun yaşama eğiliminde olduğunuzu ve stres veya endişeye karşı daha duyarlı olabileceğinizi gösterir. Bazen sıradan durumları diğer insanlara göre daha stresli yorumlayabilir ve ufak tefek aksilikleri daha harekete geçirici (rahatsız edici) bulabilirsiniz; bu da ruh halinizde dalgalanmalara yol açabilir. Bu durum bazı zorlukları beraberinde getirse de, duygusal duyarlılığınız aynı zamanda zengin ve incelikli (nüanslı) bir duygusal yaşama sahip olmanızı sağlar.",
+            "Average": "Duygusal Dengesizlik puanınız ortalama aralıktadır; bu durum duygusal iniş ve çıkışlarınız arasında bir dengeye sahip olduğunuz anlamına gelir. Genellikle sakin ve duygusal olarak dengelisinizdir, ancak özellikle hayatın getirdiği iniş çıkışlara tepki olarak hala endişe, stres veya olumsuz duygu dönemleri yaşayabilirsiniz. Duygusal duyarlılık seviyeniz, hem kendi duygularınızla (ve başkalarının duygularıyla) uyum içinde olmanızı hem de psikolojik olarak dayanıklı (esnek) kalmanızı sağlar.",
+            "Low": "Duygusal Dengesizlik puanınız düşüktür; bu durum stresli durumlarda bile duygusal olarak istikrarlı (dengeli) ve genellikle sakin olduğunuzu gösterir. Muhtemelen baskıyı iyi yönetiyorsunuz ve duygusal yoğunlukta daha az dalgalanma yaşıyorsunuz. Bu duygusal dayanıklılık, yüksek stresli durumlarda odaklanmış ve etkili kalmanızı sağlar; ancak duyguları hissettiğinizde bunları kabul etmenin ve ifade etmenin hala normal olduğunu hatırlamak önemlidir."
+        }
+    },
+    "facets": {
+        "O1": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Hayal gücü puanınız yüksektir. Hayal gücü kuvvetli bireyler için gerçek dünya genellikle fazla sade ve sıradan gelir. Bu ölçekten yüksek puan alanlar, daha zengin ve ilgi çekici bir dünya yaratmak adına fantezilerini (hayal dünyalarını) bir araç olarak kullanırlar.",
+            "Low": "Hayal gücü puanınız düşüktür. Bu ölçekten düşük puan alanlar, hayallerden ziyade gerçeklere (olgulara) odaklıdırlar."
+        },
+        "O2": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Sanatsal ilgi puanınız yüksektir. Bu ölçekten yüksek puan alanlar, hem sanattaki hem de doğadaki güzelliği severler. Sanatsal ve doğal olaylara/deneyimlere kolayca kapılır ve bu anların içinde bütünleşirler. Sanatsal açıdan eğitimli veya yetenekli olmaları şart değildir, ancak birçoğu öyledir.",
+            "Low": "Sanatsal ilgi puanınız düşüktür. Düşük puan alanlar estetik duyarlılıktan yoksundur ve sanatla pek ilgilenmezler."
+        },
+        "O3": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Duygusallık puanınız yüksektir. Duygusallık düzeyi yüksek olan bireyler, kendi hislerine kolayca erişebilir ve duygularının fazlasıyla farkındadırlar.",
+            "Low": "Duygusallık puanınız düşüktür. Düşük puan alanlar hislerinin daha az farkındadır ve duygularını açıkça ifade etmeme eğilimindedirler."
+        },
+        "O4": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Maceracılık puanınız yüksektir. Bu ölçekten yüksek puan alanlar yeni aktiviteler denemeye, yabancı ülkelere seyahat etmeye ve farklı şeyler deneyimlemeye heveslidirler. Bildikleri (aşina oldukları) şeyleri ve rutini sıkıcı bulurlar.",
+            "Low": "Maceracılık puanınız düşüktür. Düşük puan alanlar değişimden rahatsızlık duyma eğilimindedir ve tanıdık rutinleri tercih ederler."
+        },
+        "O5": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Entelektüellik puanınız yüksektir. Bu boyutta yüksek puan alan kişiler, fikirlerle zihinsel jimnastik yapmaktan (fikirlerle oynamaktan) hoşlanırlar. Yeni ve sıra dışı fikirlere açıktırlar ve entelektüel konuları tartışmayı severler. Bilmecelerden, bulmacalardan ve zeka oyunlarından keyif alırlar. Entelektüellik, (IQ anlamındaki) zeka ile bir tutulmamalıdır. Entelektüellik zihinsel bir yetenek değil, zihinsel bir yaklaşım tarzıdır.",
+            "Low": "Entelektüellik alt boyutunda düşük puan aldınız - bu durum zeka düşüklüğü ile bir tutulmamalıdır, çünkü bu kavram zihinsel bir yeteneği değil, zihinsel bir tarzı ifade eder. Entelektüellik puanı düşük olanlar, fikirlerden ziyade insanlarla veya nesnelerle (somut şeylerle) uğraşmayı tercih ederler. Soyut veya teorik tartışmalar yerine pratik, uygulamalı (hands-on) problem çözmeyi tercih edebilirler."
+        },
+        "O6": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Liberalizm puanınız yüksektir. Psikolojik liberalizm; otoriteye, genel kabullere (konvansiyonlara) ve geleneksel değerlere meydan okumaya hazır olmayı ifade eder. En uç biçiminde psikolojik liberalizm; kuralları sorgulama veya onlara meydan okuma eğilimini, genel kabulleri yıkanlara karşı anlayış göstermeyi ve belirsizliğe/muğlaklığa karşı daha yüksek bir toleransa sahip olmayı temsil edebilir. Psikolojik liberalizm ve muhafazakarlık, siyasi parti üyeliği ile birebir aynı şey değildir, ancak bireyleri kesinlikle belirli siyasi eğilimlere yöneltebilir.",
+            "Low": "Liberalizm puanınız düşüktür. Psikolojik muhafazakarlık; istikrar, gelenek ve yerleşik/kurulu yaklaşımlara yönelik bir tercihi yansıtır. Psikolojik liberalizm ve muhafazakarlık siyasi görüş ile birebir aynı değildir ancak geleneğe değer verme veya değişime açıklık konusundaki genel eğilimlerle ilişkilendirilebilir."
+        },
+        "C1": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Özyeterlilik puanınız yüksektir. Özyeterlilik, kişinin bir şeyleri başarma yeteneğine duyduğu güveni tanımlar. Bu ölçekten yüksek puan alanlar; başarıya ulaşmak için gerekli kapasiteye, azme (içsel güce) ve özdenetime sahip olduklarına inanırlar.",
+            "Low": "Özyeterlilik puanınız düşüktür. Düşük puan alanlar, sonuçları şekillendirme (olaylara yön verme) yetenekleri konusunda bazen kendilerine daha az güvenebilirler. Zaman zaman koşulların kontrolünün ellerinde olmadığını hissedebilirler; ancak bu durum, içinde bulunulan duruma ve mevcut desteklere göre değişiklik gösterebilir."
+        },
+        "C2": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Düzenlilik puanınız yüksektir. Düzenlilik ölçeğinden yüksek puan alan kişiler iyi organize olmuş (tertipli) kişilerdir. Rutinlere ve çizelgelere göre yaşamayı severler. Listeler tutar ve planlar yaparlar.",
+            "Low": "Düzenlilik puanınız düşüktür. Düşük puan alanlar yaklaşımlarında daha az planlı/yapılandırılmış olma eğilimindedirler ve katı bir organizasyon yerine esnekliği tercih edebilirler."
+        },
+        "C3": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Görev bilinci puanınız yüksektir. Bu ölçek, kişinin görev ve yükümlülük duygusunun gücünü yansıtır. Bu ölçekten yüksek puan alanlar güçlü bir ahlaki yükümlülük hissine sahiptirler.",
+            "Low": "Görev bilinci puanınız düşüktür. Bu ölçek, kişinin görev ve yükümlülük duygusunun gücünü yansıtır. Düşük puan alanlar sözleşmeleri, kuralları ve yönetmelikleri aşırı kısıtlayıcı bulurlar. Başkaları bazen onları yükümlülüklere veya geleneksel beklentilere daha az bağlı olarak algılayabilir."
+        },
+        "C4": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Başarı çabası puanınız yüksektir. Bu ölçekten yüksek puan alan bireyler mükemmelliğe ulaşmak için çok çabalarlar. Başarılı olarak tanınma dürtüleri, onları yüksek hedeflerine giden yolda tutar. Hayatta genellikle güçlü bir yön duygusuna sahiptirler, ancak aşırı yüksek puanlar, sadece tek bir amaca kilitlenmiş (tek yönlü düşünen) ve işlerine takıntılı bir yapıya işaret edebilir.",
+            "Low": "Başarı çabası puanınız düşüktür. Düşük puan alanlar, dışsal başarı göstergelerine daha az önem verebilirler ve yüksek başarı için çabalamak yerine genellikle temel gereksinimleri karşılamakla yetinirler."
+        },
+        "C5": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Özdisiplin puanınız yüksektir. Birçok insanın \"irade gücü\" olarak adlandırdığı özdisiplin, zor veya nahoş görevleri tamamlanana kadar sürdürme yeteneğini ifade eder. Yüksek özdisipline sahip kişiler, işe başlama konusundaki isteksizliği yenebilir ve dikkat dağıtıcı unsurlara rağmen işe odaklanmaya devam edebilirler.",
+            "Low": "Özdisiplin puanınız düşüktür. Birçok insanın \"irade gücü\" olarak adlandırdığı özdisiplin, zor veya nahoş görevleri tamamlanana kadar sürdürme yeteneğini ifade eder. Daha düşük özdisipline sahip olanlar, zor veya nahoş görevleri sürdürmekte daha fazla zorlanabilirler ve ivmeyi (çalışma temposunu) korumak için dışsal bir yapıya veya hesap verebilirliğe (denetime) ihtiyaç duyabilirler."
+        },
+        "C6": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Temkinlilik puanınız yüksektir. Temkinlilik, harekete geçmeden önce olasılıkları etraflıca düşünme eğilimini tanımlar. Temkinlilik ölçeğinden yüksek puan alanlar, karar verirken acele etmezler (zamanlarını kullanırlar).",
+            "Low": "Temkinlilik puanınız düşüktür. Temkinlilik, harekete geçmeden önce olasılıkları etraflıca düşünme eğilimini tanımlar. Düşük puan alanlar, birden fazla alternatifi önceden değerlendirmek yerine genellikle spontane tepkilere güvenerek hızlı hareket edebilir veya yanıt verebilirler."
+        },
+        "E1": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Dostluk puanınız yüksektir. Dost canlısı insanlar diğer insanlardan gerçekten hoşlanırlar ve başkalarına karşı olumlu hislerini açıkça gösterirler. Hızlı arkadaş edinirler ve yakın, samimi ilişkiler kurmak onlar için kolaydır.",
+            "Low": "Dostluk puanınız düşüktür. Dostluk ölçeğinden düşük puan alanlar sosyal bağlantılarında daha seçici olma eğilimindedirler ve başkaları tarafından mesafeli veya kendi başına kalmayı tercih eden kişiler olarak algılanabilirler."
+        },
+        "E2": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Toplumsallık puanınız yüksektir. Toplumsallığı yüksek insanlar başkalarının varlığını/eşlik etmesini canlandırıcı ve ödüllendirici bulurlar. Kalabalıkların heyecanından keyif alırlar.",
+            "Low": "Toplumsallık puanınız düşüktür. Düşük puan alanlar bazen büyük kalabalıklar içinde kendilerini daha az rahat hissedebilir, bu nedenle daha küçük veya daha sessiz sosyal ortamları arayabilirler. Bu, insanlarla olmaktan hoşlanmadıkları anlamına gelmez; ancak mahremiyet ve kendilerine ayıracakları zaman ihtiyaçları, bu ölçekten yüksek puan alanlara göre çok daha fazladır."
+        },
+        "E3": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Girişkenlik puanınız yüksektir. Girişkenlik konusunda yüksek puan alanlar; fikirlerini açıkça söylemekten (seslerini duyurmaktan), kontrolü ele almaktan ve başkalarının faaliyetlerini yönlendirmekten hoşlanırlar. Gruplarda lider olma eğilimindedirler.",
+            "Low": "Girişkenlik puanınız düşüktür. Girişkenlik konusunda düşük puan alanlar, grup ortamlarında daha sessiz veya mesafeli olabilirler ve grup etkinliklerinde liderliği başkalarının üstlenmesine izin vermeyi tercih edebilirler."
+        },
+        "E4": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Aktivite düzeyi puanınız yüksektir. Aktif bireyler hızlı tempolu, yoğun hayatlar sürerler. Hızlı, enerjik ve dinamik bir şekilde hareket ederler ve birçok faaliyetin içinde yer alırlar.",
+            "Low": "Aktivite düzeyi puanınız düşüktür. Bu ölçekten düşük puan alan kişiler, daha yavaş, daha acelesiz ve rahat bir yaşam temposunu tercih edebilirler."
+        },
+        "E5": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Heyecan arayışı puanınız yüksektir. Bu ölçekten yüksek puan alanlar, yüksek düzeyde uyarılma (stimülasyon) olmadığında kolayca sıkılırlar. Parlak ışıkları ve hareketli ortamları (keşmekeşi) severler. Risk alma ve heyecan/aksiyon peşinde koşma eğilimindedirler.",
+            "Low": "Heyecan arayışı puanınız düşüktür. Düşük puan alanlar, gürültülü veya aşırı uyarıcı ortamları daha az konforlu bulabilir; sakin veya öngörülebilir aktiviteleri tercih edebilirler."
+        },
+        "E6": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Neşelilik puanınız yüksektir. Bu ölçek olumsuz duyguları (ki bunlar Duygusal Dengesizlik alanının bir parçasıdır) değil, olumlu ruh hali ve duyguları ölçer. Bu ölçekten yüksek puan alan kişiler tipik olarak mutluluk, coşku, iyimserlik ve sevinç dahil olmak üzere çeşitli olumlu duygular yaşarlar.",
+            "Low": "Neşelilik düzeyiniz düşüktür. Bu ölçek olumsuz duyguları (ki bunlar Duygusal Dengesizlik alanının bir parçasıdır) değil, olumlu ruh hali ve duyguları ölçer. Bu ölçekten düşük puan alanlar, daha durağan veya sönük bir duygusal tona sahip olma eğilimindedirler ve olumlu duygularını daha sessiz, daha az coşkulu yollarla ifade edebilirler."
+        },
+        "A1": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Güven düzeyiniz yüksektir. Güven düzeyi yüksek bir kişi, çoğu insanın adil, dürüst ve iyi niyetli olduğunu varsayar.",
+            "Low": "Güven düzeyiniz düşüktür. Güven düzeyi düşük insanlar, başkalarının niyetleri konusunda daha temkinli olabilir ve insanların kendi çıkarları doğrultusunda hareket etmesini bekleyebilirler."
+        },
+        "A2": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Ahlak (Doğruluk) puanınız yüksektir. Bu ölçekten yüksek puan alanlar, başkalarıyla iletişimlerinde yapmacıklığa veya manipülasyona gerek duymazlar; bu nedenle içten, açık sözlü ve samimidirler. İnsanlar, bu ölçekte yüksek puan alan açık sözlü kişilerle ilişki kurmayı (anlaşmayı) nispeten kolay bulurlar.",
+            "Low": "Ahlak (Doğruluk) puanınız düşüktür. Düşük puan alanlar sosyal etkileşimlerde daha pragmatik (faydacı) olabilir ve \"tam şeffaflığın\" her durumda pratik veya uygun olmadığına inanabilirler. İnsanlar genellikle bu ölçekten düşük puan alanlarla ilişki kurmayı daha zor bulurlar. Şurası netleştirilmelidir ki; düşük puan alanlar ilkesiz veya ahlaksız değildirler; onlar sadece daha temkinlidirler (gardını düşürmezler) ve gerçeğin tamamını açıkça ifşa etmeye daha az isteklidirler."
+        },
+        "A3": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Diğerkamlık puanınız yüksektir. Diğerkam (yardımsever) insanlar başkalarına yardım etmeyi gerçekten ödüllendirici bulurlar. Sonuç olarak, ihtiyacı olanlara yardım etmeye genellikle isteklidirler. Diğerkam insanlar, başkaları için bir şeyler yapmayı bir fedakarlık değil, bir tür kendini gerçekleştirme (manevi tatmin) olarak görürler.",
+            "Low": "Diğerkamlık puanınız düşüktür. Bu ölçekten düşük puan alanlar, ne zaman ve nasıl yardım teklif edecekleri konusunda daha seçici olabilirler ve başkalarına yardım etmeden önce genellikle kendi sorumluluklarına öncelik verme eğilimindedirler."
+        },
+        "A4": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "İşbirliği puanınız yüksektir. Bu ölçekten yüksek puan alan bireyler yüzleşmelerden/çatışmalardan hoşlanmazlar. Başkalarıyla iyi geçinmek adına uzlaşmaya veya kendi ihtiyaçlarını yok saymaya (taviz vermeye) tamamen isteklidirler.",
+            "Low": "İşbirliği puanınız düşüktür. Bu ölçekten düşük puan alanlar, kendi pozisyonlarında (fikirlerinde) sağlam durma eğilimindedirler ve çatışmadan kaçınmak uğruna başkalarının tercihlerine uyum sağlama konusunda daha az istekli olabilirler."
+        },
+        "A5": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Mütevazılık puanınız yüksektir. Bu ölçekten yüksek puan alanlar, diğer insanlardan daha iyi olduklarını iddia etmekten hoşlanmazlar. Bazı durumlarda bu tutum düşük özgüven veya düşük benlik saygısından kaynaklanabilir. Bununla birlikte, yüksek benlik saygısına sahip bazı insanlar da tevazu eksikliğini (övünmeyi) yakışıksız bulurlar.",
+            "Low": "Mütevazılık puanınız düşüktür. Mütevazılık konusunda düşük puan alanlar güçlü yönlerini ve başarılarını dile getirme (kabul etme) konusunda rahattırlar; ancak başkaları bu özgüveni bazen kendini övme (reklamını yapma) olarak algılayabilir."
+        },
+        "A6": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Sympathy puanınız yüksektir. Bu ölçekten yüksek puan alan insanlar yumuşak kalpli ve şefkatlidirler. Başkalarının acısını derinden (kendi yaşamış gibi) hissederler ve kolayca merhamet duyarlar.",
+            "Low": "Sympathy puanınız düşüktür. Düşük puan alanlar, başkalarının zorluklarıyla karşılaştıklarında duygusal mesafeyi koruma eğilimindedirler; bu da zorlu durumlarda objektif kalmalarını sağlayabilir. Akla dayalı nesnel yargılarda bulunmakla övünürler. Merhametten ziyade gerçekler ve tarafsız adaletle ilgilenirler."
+        },
+        "N1": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Anksiyete düzeyiniz yüksektir. Sık sık endişelenme eğilimindesiniz ve genellikle olası problemleri veya olumsuz sonuçları önceden (henüz olmadan) beklersiniz. Belirsiz durumlarda huzursuz hissetmeniz ve çoğu insandan daha kolay stres yaşamanız muhtemeldir.",
+            "Low": "Anksiyete düzeyiniz düşüktür. Çoğu durumda sakin ve dertsiz hissetme eğilimindesinizdir; nadiren endişelenir veya olumsuz sonuçlardan korkarsınız."
+        },
+        "N2": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Öfke düzeyiniz yüksektir. Öfke ölçeğinden yüksek puan alan kişiler, işler istedikleri gibi gitmediğinde güçlü duygusal tepkiler verirler. Adalet konusunda artmış bir farkındalığa sahiptirler ve haksızlığa uğradıklarını (eşit muamele görmediklerini) algıladıklarında hayal kırıklığı veya hüsran hissedebilirler. Bu ölçek öfke duyma eğilimini ölçer; kişinin bu kızgınlığını veya düşmanlığını dışa vurup vurmayacağı ise Uyumluluk (Agreeableness) düzeyine bağlıdır.",
+            "Low": "Öfke düzeyiniz düşüktür. Düşük puan alanlar sık sık veya kolayca sinirlenmezler."
+        },
+        "N3": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Depresyon puanınız yüksektir. Bu alt boyut, ortalamadan daha sık üzüntü veya düşük duygu durumu yaşama eğilimini yansıtır. Bazen kendinizi yetersiz hissedebilir (kendinize yüklenebilir) veya cesaretiniz kırılabilir; aksilikler karşısında ruh haliniz daha kolay düşüşe geçebilir. (Not: Buradaki depresyon klinik bir tanı değil, bir kişilik eğilimi/duygu durumudur.)",
+            "Low": "Depresyon puanınız düşüktür. Kendinizle barışık olma eğilimindesiniz ve daha az üzüntü veya cesaretsizlik hissi yaşarsınız."
+        },
+        "N4": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Benlik bilinci (sosyal kaygı) düzeyiniz yüksektir. Bu boyutta yüksek puan alan bireyler, başkalarının kendileri hakkında ne düşündüğü konusunda hassastırlar. Reddedilme ve alay edilme endişeleri, başkalarının yanında utangaç ve rahatsız hissetmelerine neden olur. Kolayca utanırlar ve sık sık mahcubiyet hissederler. Başkalarından gelecek eleştiri veya yargılanma endişeleri onlara çok gerçekçi ve baskıcı gelebilir; sosyal durumlarda yaşadıkları bu rahatsızlık bazen bu endişelerini daha da pekiştirebilir.",
+            "Low": "Benlik bilinci (sosyal kaygı) düzeyiniz düşüktür. Bu boyutta düşük puan alan bireyler, çeşitli durumlarda yüksek düzeyde kendinden eminlik ve özgüven sergileme eğilimindedirler. Kendileri olmaktan (doğal davranmaktan) rahattırlar; başkalarının onları nasıl algıladığı konusunda sürekli endişelenmezler veya başkalarından onay aramazlar."
+        },
+        "N5": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Aşırılık puanınız yüksektir. Bu boyutta yüksek puan alanlar, zaman zaman direnmesi zor hissettiren güçlü dürtüler veya arzular yaşayabilirler. Uzun vadeli sonuçlar önemli olsa bile, anlık ödüllere (anlık hazlara) daha fazla kapılma eğiliminde olabilirler.",
+            "Low": "Aşırılık puanınız düşüktür. Düşük puan alanlar daha az güçlü dürtü veya arzu yaşarlar ve uzun vadeli hedeflerini, anlık ödüllere tercih etmeyi daha kolay bulurlar."
+        },
+        "N6": {
+            "Average": "Ortalama düzeyde puan alan bireyler, bu özelliğin çok baskın ya da çok zayıf olduğu uç noktalarda yer almazlar. Duruma ve koşullara bağlı olarak her iki uçtaki davranışları da sergileyebilirler.",
+            "High": "Kırılganlık puanınız yüksektir. Yüksek puan alanlar, baskı veya stres altındayken bunalmış hissedebilir veya durumla nasıl başa çıkacaklarından emin olamayabilirler; kriz anında sakin kalma stratejilerini devreye sokmakta zorlanabilirler.",
+            "Low": "Kırılganlık puanınız düşüktür. Düşük puan alanlar stres altındayken bile kendilerini daha sağlam (sarsılmaz), kendinden emin ve zihni berrak (net düşünen) hissetme eğilimindedirler. Sosyal İstenirlik (Socially Desirable Responding - SDR)"
+        }
+    },
+    "sdr": {
+        "High": "Sosyal istenirlik düzeyiniz yüksektir ,bu durum, kendinizi aşırı olumlu bir ışık altında sunma eğiliminde olduğunuzu gösterebilir (Paulhus, 2002). Uzmanlar (klinisyenler), genel profilin geçerliliğini doğrulamak için çeşitli alt boyutlara bakar. Eğer bu örüntü mevcutsa, sonuçlar gerçek kişilik özelliklerinden ziyade yanıt yanlılığını (response bias) yansıtıyor olabilir. Ancak, profil faktörler arasında daha tipik (olağan) bir dağılım gösteriyorsa, bu yüksek puanlar kişinin gerçekten olumlu bir uyum (authentic positive adjustment) içinde olduğunu da yansıtabilir.",
+        "Average": "Sosyal istenirlik düzeyiniz ortalamadır; bu nedenle sonuçların gerçek kişiliğinizin güvenilir bir temsili olması muhtemeldir.",
+        "Low": "Sosyal istenirlik düzeyiniz çok düşüktür. Bu durum, ya olağandışı derecede açık sözlü ve dürüst bir öz-bildirimi ya da öz-eleştirel veya aşırı olumsuz bir öz değerlendirme eğilimini gösterebilir."
+    }
+}

@@ -1,0 +1,7 @@
+# Data (neo.docx source of truth)
+
+- **items.tr.json** — 120 IPIP-NEO items (id: item_1..item_120, num, text_tr, domain, facet, keyed). **keyed**: `plus` = cevap 1–5 aynen puanlanır; `minus` = ters puanlama (6 − cevap). Ters puanlanan maddeler PDF/Johnson keying ile uyumlu olmalı; referans: `scripts/generate-items.js` içindeki MAP (R = minus).
+- **narratives.tr.json** — Turkish report narratives. Content must come from **neo.docx** only. Do not invent psychology text. Keys: `domains.<N|E|O|A|C>.<Low|Average|High>`, `facets.<N1..C6>.<Low|Average|High>`, `sdr.<Low|Average|High>`. Missing entries are shown as `[MISSING TEXT: <key>]` in the report and listed in the admin warning.
+- **generic-client-answers.json** — PDF Generic Client (developer test) cevapları (madde 1–120). **Sadece PDF tablolarından tek tek okunan** 1–5 değerleri içermelidir; cevaplar matematiksel olarak hedefe göre ayarlanmaz (solver kullanılmaz). Referans = PDF olduğu için skorlar tam eşleşmelidir: O=83, C=105, E=75, A=85, N=50. `scripts/submit-answers-console.js` bu dosyadan okur. Doğrulama: `npx tsx scripts/run-generic-client.ts`.
+- **random-answers.json** — Rastgele 120 cevap + bizim skorlar (O,C,E,A,N). Bizim program vs bigfive-test.com ortalama karşılaştırması için: `npx tsx scripts/random-answers-and-score.ts [seed]` ile üretilir; aynı CEVAPLAR bigfive-test-com-fill-console.js ile siteye gönderilip iki sistemin skorları yan yana konur.
+- **bigfive-har-scores.json** — HAR'dan çıkarılan bigfive-test.com skorları. `node scripts/extract-bigfive-har.js <har-dosyası>`.

@@ -1,0 +1,962 @@
+[
+  {
+    "num": 1,
+    "id": "item_1",
+    "text_tr": "Her şeye endişelenirim.",
+    "domain": "N",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 2,
+    "id": "item_2",
+    "text_tr": "Kolay arkadaş edinirim.",
+    "domain": "E",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 3,
+    "id": "item_3",
+    "text_tr": "Geniş bir hayal gücüne sahibim.",
+    "domain": "O",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 4,
+    "id": "item_4",
+    "text_tr": "Başkalarına güvenirim.",
+    "domain": "A",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 5,
+    "id": "item_5",
+    "text_tr": "Görevleri başarıyla tamamlarım.",
+    "domain": "C",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 6,
+    "id": "item_6",
+    "text_tr": "Çabuk sinirlenirim.",
+    "domain": "N",
+    "facet": 2,
+    "keyed": "plus"
+  },
+  {
+    "num": 7,
+    "id": "item_7",
+    "text_tr": "Sosyal faaliyetleri severim.",
+    "domain": "E",
+    "facet": 2,
+    "keyed": "plus"
+  },
+  {
+    "num": 8,
+    "id": "item_8",
+    "text_tr": "Sanatın önemine inanırım.",
+    "domain": "O",
+    "facet": 2,
+    "keyed": "plus"
+  },
+  {
+    "num": 9,
+    "id": "item_9",
+    "text_tr": "Başkalarından kendi amaçlarım için yararlanırım.",
+    "domain": "A",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 10,
+    "id": "item_10",
+    "text_tr": "Düzenli olmayı severim.",
+    "domain": "C",
+    "facet": 2,
+    "keyed": "plus"
+  },
+  {
+    "num": 11,
+    "id": "item_11",
+    "text_tr": "Genellikle kendimi üzgün hissederim.",
+    "domain": "N",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 12,
+    "id": "item_12",
+    "text_tr": "Sorumluluk almaktan kaçınmam, idareyi ele alırım.",
+    "domain": "E",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 13,
+    "id": "item_13",
+    "text_tr": "Duygularımı yoğun yaşarım.",
+    "domain": "O",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 14,
+    "id": "item_14",
+    "text_tr": "Başkalarına yardım etmeyi severim.",
+    "domain": "A",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 15,
+    "id": "item_15",
+    "text_tr": "Sözümde dururum.",
+    "domain": "C",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 16,
+    "id": "item_16",
+    "text_tr": "Başkalarına yakınlaşmakta zorluk çekerim.",
+    "domain": "N",
+    "facet": 4,
+    "keyed": "plus"
+  },
+  {
+    "num": 17,
+    "id": "item_17",
+    "text_tr": "Her zaman meşgulüm.",
+    "domain": "E",
+    "facet": 4,
+    "keyed": "plus"
+  },
+  {
+    "num": 18,
+    "id": "item_18",
+    "text_tr": "Değişikliği rutine tercih ederim.",
+    "domain": "O",
+    "facet": 4,
+    "keyed": "plus"
+  },
+  {
+    "num": 19,
+    "id": "item_19",
+    "text_tr": "Mücadele etmekten hoşlanırım.",
+    "domain": "A",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 20,
+    "id": "item_20",
+    "text_tr": "Çok çalışırım.",
+    "domain": "C",
+    "facet": 4,
+    "keyed": "plus"
+  },
+  {
+    "num": 21,
+    "id": "item_21",
+    "text_tr": "Aşırıya kaçarım (Yeme,içme veya harcama konusunda).",
+    "domain": "N",
+    "facet": 5,
+    "keyed": "plus"
+  },
+  {
+    "num": 22,
+    "id": "item_22",
+    "text_tr": "Heyecan verici olayları severim.",
+    "domain": "E",
+    "facet": 5,
+    "keyed": "plus"
+  },
+  {
+    "num": 23,
+    "id": "item_23",
+    "text_tr": "Anlaşılması zor ve karmaşık materyalleri okumaktan zevk alırım.",
+    "domain": "O",
+    "facet": 5,
+    "keyed": "plus"
+  },
+  {
+    "num": 24,
+    "id": "item_24",
+    "text_tr": "Başkalarından daha iyi olduğuma inanırım.",
+    "domain": "A",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 25,
+    "id": "item_25",
+    "text_tr": "Her zaman hazırlıklı ve tetikte olurum.",
+    "domain": "C",
+    "facet": 5,
+    "keyed": "plus"
+  },
+  {
+    "num": 26,
+    "id": "item_26",
+    "text_tr": "Kolaylıkla paniğe kapılırım.",
+    "domain": "N",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 27,
+    "id": "item_27",
+    "text_tr": "Her zaman neşe saçarım.",
+    "domain": "E",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 28,
+    "id": "item_28",
+    "text_tr": "Yenilikçi kişileri izlerim.",
+    "domain": "O",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 29,
+    "id": "item_29",
+    "text_tr": "Evsizlere yardım ederim.",
+    "domain": "A",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 30,
+    "id": "item_30",
+    "text_tr": "Harekete geçmeden önce hiç düşünmem.",
+    "domain": "C",
+    "facet": 6,
+    "keyed": "minus"
+  },
+  {
+    "num": 31,
+    "id": "item_31",
+    "text_tr": "En kötünün olabileceğinden korkarım.",
+    "domain": "N",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 32,
+    "id": "item_32",
+    "text_tr": "İnsanların arasında kendimi rahat hissederim.",
+    "domain": "E",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 33,
+    "id": "item_33",
+    "text_tr": "Hayal kurmaktan hoşlanırım.",
+    "domain": "O",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 34,
+    "id": "item_34",
+    "text_tr": "Başkalarının iyi niyetli olduğuna inanırım.",
+    "domain": "A",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 35,
+    "id": "item_35",
+    "text_tr": "İşimi iyi yaparım.",
+    "domain": "C",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 36,
+    "id": "item_36",
+    "text_tr": "Kolay sinirlenirim.",
+    "domain": "N",
+    "facet": 2,
+    "keyed": "plus"
+  },
+  {
+    "num": 37,
+    "id": "item_37",
+    "text_tr": "Toplantılarda birçok farklı insanla konuşurum.",
+    "domain": "E",
+    "facet": 2,
+    "keyed": "plus"
+  },
+  {
+    "num": 38,
+    "id": "item_38",
+    "text_tr": "Başkalarının fark edemediği güzellikleri görürüm.",
+    "domain": "O",
+    "facet": 2,
+    "keyed": "plus"
+  },
+  {
+    "num": 39,
+    "id": "item_39",
+    "text_tr": "Başarılı olmak için hile yaparım.",
+    "domain": "A",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 40,
+    "id": "item_40",
+    "text_tr": "Eşyaları yerlerine koymayı sık sık unuturum.",
+    "domain": "C",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 41,
+    "id": "item_41",
+    "text_tr": "Kendimi beğenmiyorum.",
+    "domain": "N",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 42,
+    "id": "item_42",
+    "text_tr": "Başkalarına rehberlik etmeye çalışırım.",
+    "domain": "E",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 43,
+    "id": "item_43",
+    "text_tr": "Başkalarının duygularını hissederim.",
+    "domain": "O",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 44,
+    "id": "item_44",
+    "text_tr": "Başkalarının düşüncelerini önemserim.",
+    "domain": "A",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 45,
+    "id": "item_45",
+    "text_tr": "Doğruyu söylerim.",
+    "domain": "C",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 46,
+    "id": "item_46",
+    "text_tr": "Dikkati üstüme çekmekten korkarım.",
+    "domain": "N",
+    "facet": 4,
+    "keyed": "plus"
+  },
+  {
+    "num": 47,
+    "id": "item_47",
+    "text_tr": "Her zaman meşgulüm.",
+    "domain": "E",
+    "facet": 4,
+    "keyed": "plus"
+  },
+  {
+    "num": 48,
+    "id": "item_48",
+    "text_tr": "Bildiğim yoldan şaşmam.",
+    "domain": "O",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 49,
+    "id": "item_49",
+    "text_tr": "İnsanları azarlarım.",
+    "domain": "A",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 50,
+    "id": "item_50",
+    "text_tr": "Benden beklenenden daha fazlasını yaparım.",
+    "domain": "C",
+    "facet": 4,
+    "keyed": "plus"
+  },
+  {
+    "num": 51,
+    "id": "item_51",
+    "text_tr": "Nadiren aşırıya kaçarım.",
+    "domain": "N",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 52,
+    "id": "item_52",
+    "text_tr": "Macera ararım.",
+    "domain": "E",
+    "facet": 5,
+    "keyed": "plus"
+  },
+  {
+    "num": 53,
+    "id": "item_53",
+    "text_tr": "Felsefi tartışmalardan kaçınırım.",
+    "domain": "O",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 54,
+    "id": "item_54",
+    "text_tr": "En çok kendimi düşünürüm.",
+    "domain": "A",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 55,
+    "id": "item_55",
+    "text_tr": "Planlarımı uygulamaya koyarım.",
+    "domain": "C",
+    "facet": 5,
+    "keyed": "plus"
+  },
+  {
+    "num": 56,
+    "id": "item_56",
+    "text_tr": "Aksilikler karşısında kendimi güçsüz hissederim.",
+    "domain": "N",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 57,
+    "id": "item_57",
+    "text_tr": "Çok eğlenceliyim.",
+    "domain": "E",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 58,
+    "id": "item_58",
+    "text_tr": "Mutlak doğrunun ve yanlışın olmadığına inanırım.",
+    "domain": "O",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 59,
+    "id": "item_59",
+    "text_tr": "Benden daha kötü durumda olanlara yardım ederim.",
+    "domain": "A",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 60,
+    "id": "item_60",
+    "text_tr": "Acele karar veririm.",
+    "domain": "C",
+    "facet": 6,
+    "keyed": "minus"
+  },
+  {
+    "num": 61,
+    "id": "item_61",
+    "text_tr": "Birçok şeyden endişe duyarım.",
+    "domain": "N",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 62,
+    "id": "item_62",
+    "text_tr": "Başkalarıyla iletişim kurmaktan kaçınırım.",
+    "domain": "E",
+    "facet": 1,
+    "keyed": "minus"
+  },
+  {
+    "num": 63,
+    "id": "item_63",
+    "text_tr": "Hayal kurmaktan hoşlanırım.",
+    "domain": "O",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 64,
+    "id": "item_64",
+    "text_tr": "İnsanların söylediklerine inanırım.",
+    "domain": "A",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 65,
+    "id": "item_65",
+    "text_tr": "Görevleri kolaylıkla hallederim.",
+    "domain": "C",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 66,
+    "id": "item_66",
+    "text_tr": "Kendimi control etmekte güçlük çekerim.",
+    "domain": "N",
+    "facet": 2,
+    "keyed": "plus"
+  },
+  {
+    "num": 67,
+    "id": "item_67",
+    "text_tr": "Yalnız kalmayı tercih ederim.",
+    "domain": "E",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 68,
+    "id": "item_68",
+    "text_tr": "Şiiri sevmem.",
+    "domain": "O",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 69,
+    "id": "item_69",
+    "text_tr": "Başkalarından hedeflerim doğrultusunda yararlanırım.",
+    "domain": "A",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 70,
+    "id": "item_70",
+    "text_tr": "Odamı dağınık bırakırım.",
+    "domain": "C",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 71,
+    "id": "item_71",
+    "text_tr": "Genellikle canım sıkkındır.",
+    "domain": "N",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 72,
+    "id": "item_72",
+    "text_tr": "Olayları control altına alırım.",
+    "domain": "E",
+    "facet": 3,
+    "keyed": "plus"
+  },
+  {
+    "num": 73,
+    "id": "item_73",
+    "text_tr": "Duygularımın pek farkında değilim.",
+    "domain": "O",
+    "facet": 3,
+    "keyed": "minus"
+  },
+  {
+    "num": 74,
+    "id": "item_74",
+    "text_tr": "Başkalarının duyguları beni ilgilendirmez.",
+    "domain": "A",
+    "facet": 3,
+    "keyed": "minus"
+  },
+  {
+    "num": 75,
+    "id": "item_75",
+    "text_tr": "Kuralları ihlal ederim.",
+    "domain": "C",
+    "facet": 3,
+    "keyed": "minus"
+  },
+  {
+    "num": 76,
+    "id": "item_76",
+    "text_tr": "Sadece arkadaşlarımla beraberken rahat hissederim.",
+    "domain": "N",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 77,
+    "id": "item_77",
+    "text_tr": "Boş zamanlarımı iyi değerlendiririm.",
+    "domain": "E",
+    "facet": 4,
+    "keyed": "plus"
+  },
+  {
+    "num": 78,
+    "id": "item_78",
+    "text_tr": "Değişikliklerden hoşlanmam.",
+    "domain": "O",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 79,
+    "id": "item_79",
+    "text_tr": "İnsanlara karşı kırıcı olurum.",
+    "domain": "A",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 80,
+    "id": "item_80",
+    "text_tr": "Standartları yakalamak benim için yeterlidir.",
+    "domain": "C",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 81,
+    "id": "item_81",
+    "text_tr": "İsteklerimi kolayca kontrol edebilirim.",
+    "domain": "N",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 82,
+    "id": "item_82",
+    "text_tr": "Pervasızca (çılgınca) davranmaktan zevk alırım.",
+    "domain": "E",
+    "facet": 5,
+    "keyed": "plus"
+  },
+  {
+    "num": 83,
+    "id": "item_83",
+    "text_tr": "Soyut olayları algılamakta zorluk çekerim.",
+    "domain": "O",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 84,
+    "id": "item_84",
+    "text_tr": "Kendimi beğenirim.",
+    "domain": "A",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 85,
+    "id": "item_85",
+    "text_tr": "Zamanımı boşa harcadığım olur.",
+    "domain": "C",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 86,
+    "id": "item_86",
+    "text_tr": "Olayları kontrol etmekte zorlanırım.",
+    "domain": "N",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 87,
+    "id": "item_87",
+    "text_tr": "Hayatı severim.",
+    "domain": "E",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 88,
+    "id": "item_88",
+    "text_tr": "Muhafazakar kişileri izleme eğilimindeyim.",
+    "domain": "O",
+    "facet": 6,
+    "keyed": "minus"
+  },
+  {
+    "num": 89,
+    "id": "item_89",
+    "text_tr": "Başkalarının problemleriyle ilgilenmem.",
+    "domain": "A",
+    "facet": 6,
+    "keyed": "minus"
+  },
+  {
+    "num": 90,
+    "id": "item_90",
+    "text_tr": "İşin sonucunu düşünmeden harekete geçerim.",
+    "domain": "C",
+    "facet": 6,
+    "keyed": "minus"
+  },
+  {
+    "num": 91,
+    "id": "item_91",
+    "text_tr": "Kolayca strese girerim.",
+    "domain": "N",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 92,
+    "id": "item_92",
+    "text_tr": "Başkalarıyla mesafeli dururum.",
+    "domain": "E",
+    "facet": 1,
+    "keyed": "minus"
+  },
+  {
+    "num": 93,
+    "id": "item_93",
+    "text_tr": "Düşünceler içinde kaybolmaktan hoşlanırım.",
+    "domain": "O",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 94,
+    "id": "item_94",
+    "text_tr": "İnsanlara güvenmem.",
+    "domain": "A",
+    "facet": 1,
+    "keyed": "minus"
+  },
+  {
+    "num": 95,
+    "id": "item_95",
+    "text_tr": "Olayların üstesinden gelmeyi bilirim.",
+    "domain": "C",
+    "facet": 1,
+    "keyed": "plus"
+  },
+  {
+    "num": 96,
+    "id": "item_96",
+    "text_tr": "Kolay sinirlenmem.",
+    "domain": "N",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 97,
+    "id": "item_97",
+    "text_tr": "Kalabalık ortamlardan kaçınırım.",
+    "domain": "E",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 98,
+    "id": "item_98",
+    "text_tr": "Sanat müzelerine gitmekten hoşlanmam.",
+    "domain": "O",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 99,
+    "id": "item_99",
+    "text_tr": "Başkalarının planlarına engel olurum.",
+    "domain": "A",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 100,
+    "id": "item_100",
+    "text_tr": "Kişisel eşyalarımı ortalıkta bırakırım.",
+    "domain": "C",
+    "facet": 2,
+    "keyed": "minus"
+  },
+  {
+    "num": 101,
+    "id": "item_101",
+    "text_tr": "Yalnızken kendimi rahat hissederim.",
+    "domain": "N",
+    "facet": 3,
+    "keyed": "minus"
+  },
+  {
+    "num": 102,
+    "id": "item_102",
+    "text_tr": "Başkalarının bana yol göstermesini beklerim.",
+    "domain": "E",
+    "facet": 3,
+    "keyed": "minus"
+  },
+  {
+    "num": 103,
+    "id": "item_103",
+    "text_tr": "Duygusal insanları anlamam.",
+    "domain": "O",
+    "facet": 3,
+    "keyed": "minus"
+  },
+  {
+    "num": 104,
+    "id": "item_104",
+    "text_tr": "Başkaları için zamanım yoktur.",
+    "domain": "A",
+    "facet": 3,
+    "keyed": "minus"
+  },
+  {
+    "num": 105,
+    "id": "item_105",
+    "text_tr": "Sözümde duramam.",
+    "domain": "C",
+    "facet": 3,
+    "keyed": "minus"
+  },
+  {
+    "num": 106,
+    "id": "item_106",
+    "text_tr": "Zorlu durumlardan sıkıntı duymam.",
+    "domain": "N",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 107,
+    "id": "item_107",
+    "text_tr": "Rahat davranmayı severim.",
+    "domain": "E",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 108,
+    "id": "item_108",
+    "text_tr": "Geleneksel yöntemleri kullanırım.",
+    "domain": "O",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 109,
+    "id": "item_109",
+    "text_tr": "Diğerlerine yaptıklarının karşılığını veririm.",
+    "domain": "A",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 110,
+    "id": "item_110",
+    "text_tr": "İşime fazla zaman ve efor harcamam.",
+    "domain": "C",
+    "facet": 4,
+    "keyed": "minus"
+  },
+  {
+    "num": 111,
+    "id": "item_111",
+    "text_tr": "İsteklerimi kontrol edebilirim.",
+    "domain": "N",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 112,
+    "id": "item_112",
+    "text_tr": "Hızlı ve kontrolsüz hareket ederim.",
+    "domain": "E",
+    "facet": 5,
+    "keyed": "plus"
+  },
+  {
+    "num": 113,
+    "id": "item_113",
+    "text_tr": "Teorik tartışmalara ilgi duymam.",
+    "domain": "O",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 114,
+    "id": "item_114",
+    "text_tr": "Meziyetlerimle övünürüm.",
+    "domain": "A",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 115,
+    "id": "item_115",
+    "text_tr": "Bir işe başlamakta zorluk çekerim.",
+    "domain": "C",
+    "facet": 5,
+    "keyed": "minus"
+  },
+  {
+    "num": 116,
+    "id": "item_116",
+    "text_tr": "Baskı altında soğuk kanlılığımı korurum.",
+    "domain": "N",
+    "facet": 6,
+    "keyed": "minus"
+  },
+  {
+    "num": 117,
+    "id": "item_117",
+    "text_tr": "Hayata olumlu tarafından bakarım.",
+    "domain": "E",
+    "facet": 6,
+    "keyed": "plus"
+  },
+  {
+    "num": 118,
+    "id": "item_118",
+    "text_tr": "Suçlara karşı sert tedbirler alınması gerektiğine inanırım.",
+    "domain": "O",
+    "facet": 6,
+    "keyed": "minus"
+  },
+  {
+    "num": 119,
+    "id": "item_119",
+    "text_tr": "Yardıma ihtiyacı olanları düşünmemeye çalışırım.",
+    "domain": "A",
+    "facet": 6,
+    "keyed": "minus"
+  },
+  {
+    "num": 120,
+    "id": "item_120",
+    "text_tr": "Düşünmeden hareket ederim.",
+    "domain": "C",
+    "facet": 6,
+    "keyed": "minus"
+  }
+]

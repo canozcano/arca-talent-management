@@ -1,0 +1,11 @@
+{
+  "_comment": "bigfive-test.com sonuç sayfasındaki O,C,E,A,N değerlerini buraya yazın; compare-sources otomatik okur.",
+  "domainTotals": {
+    "O": 71,
+    "C": 83,
+    "E": 71,
+    "A": 66,
+    "N": 71
+  },
+  "_source": "English result page (facets summed: N=71, E=71, O=71, A=66, C=83)"
+}
